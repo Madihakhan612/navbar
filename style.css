@@ -7,17 +7,22 @@ header{
     background-color: black;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
+}
+.logo{
+     width: 200px;
 }
 .logo img{
     display: flex;
-    width: 200px;
+    width: 100px;
     align-items: center;
     
 }
 .navlink{
     display: flex;
-    justify-items: center;
-    text-decoration: solid;
+    gap: 20px;
+    
+    
     
 }
 li{
@@ -33,11 +38,20 @@ li a{
     width: 100px;
     justify-content: space-around;
 }
-button{
+.bnts{
     display: flex;
-    background-color: red;
+    gap: 20px;
+    align-items: center;
+}
+.bnts button{
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: transparent;
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 20px;
 }
 #order{
     background-color: red;

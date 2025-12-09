@@ -21,11 +21,13 @@ header{
 .navlink{
     display: flex;
     gap: 20px;  
+    align-items: center;
 }
 li{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    
 }
 li a{
     display: flex;
@@ -34,6 +36,9 @@ li a{
     text-decoration: none;
     width: 100px;
     justify-content: space-around;
+    padding: 40px;
+    
+    
     
 }
 .bnts{
@@ -47,7 +52,7 @@ li a{
     border: none;
     background-color: transparent;
     color: white;
-    border-radius: 5px;
+    border-radius: 50px;
     border: 1px solid white;
     padding: 10px 20px;
 }
@@ -56,6 +61,19 @@ li a{
 }
 .rigth{
     display: flex;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
 }
 
 

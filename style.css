@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     display: flex;
@@ -62,18 +63,49 @@ li a{
 .rigth{
     display: flex;
 }
+.arrow{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+ /* banner */
 .banner{
     width: 100%;
 }
 .banner img{
     width: 100%;
 }
-.content{
+.brand{
     width: 100%;
     background-color: black;
     color: white;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 30px;
     
 }
-
+.brand .content{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.box{
+    background-color: white;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+.box1 .boximg{
+    background-color: white;
+    width: 100%;
+}
+.box1 .bnts{
+    width: 100%;
+}
 

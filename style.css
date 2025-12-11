@@ -1,8 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
+
+    
+@font-face{
+    font-family: 'futurak';
+    src: url("./fonts/futurak.tff");
+}
+@font-face {
+    font-family: Apercu;
+    src: url("./fonts/Apercu-Font.zip");
+} 
+    
+
+
 header{
     display: flex;
     background-color: black;
@@ -38,8 +51,6 @@ li a{
     width: 100px;
     justify-content: space-around;
     padding: 40px;
-    
-    
     
 }
 .bnts{
@@ -79,7 +90,7 @@ li a{
     width: 100%;
     background-color: black;
     color: white;
-    padding: 20px 50px;
+    padding: 100px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,22 +101,48 @@ li a{
     text-align: center;
 }
 .container{
+    background-color: black;
     display: flex;
     width: 100%;
+    align-items: center;
     justify-content: center;
     gap: 30px;
 }
 .box{
+    display: flex;
     background-color: white;
     flex-direction: column;
-    width: 20%;
+    width: 15%;
     align-items: center;
+    gap: 30px;
 }
-.box1 .boximg{
+.boximg{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 100%;
-}
-.box1 .bnts{
-    width: 100%;
-}
+    align-items: center;
+}   
 
+#Salt{
+    font-family:'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+}
+h1{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+.brand.btns{
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 20px 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}

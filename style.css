@@ -136,7 +136,7 @@ h1{
     font-weight: 400;
     font-size: 40px;
 }
-.brand.btns{
+.button{
     display: flex;
     outline: none;
     border: none;
@@ -146,3 +146,52 @@ h1{
     border: 1px solid white;
     border-radius: 50px;
 }
+/*Franchise section start  */
+.Franchise{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.Franchise .content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Franchise .isb{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: space-between;
+    
+    
+}
+#oder{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    gap: 100px;
+    /* padding: 20px 40px; */
+}
+button{
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    gap: 40px;
+    padding: 30px 40px;
+    border: 1px solid white;
+    font-size: large;
+}
+
+/*Franchise section end  */
+
+

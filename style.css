@@ -50,7 +50,7 @@ li a{
     text-decoration: none;
     width: 100px;
     justify-content: space-around;
-    padding: 40px;
+    padding: 20px;
     
 }
 .bnts{
@@ -157,7 +157,7 @@ h1{
     align-items: center;
     gap: 80px;
 }
-.Franchise .content{
+.Franchise .isbcontent{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@ h1{
     flex-direction: column;
     order: 1;
     gap: 100px;
-    /* padding: 20px 40px; */
+    padding: 20px 40px;
 }
 button{
     display: flex;
@@ -185,11 +185,18 @@ button{
     border: none;
     background-color: black;
     color: white;
-    border-radius: 30px;
-    gap: 40px;
+    border-radius: 50px;
+    gap: 10px;
     padding: 30px 40px;
     border: 1px solid white;
     font-size: large;
+}
+#faisa{
+    display: flex;
+    flex-direction: column;
+    order: -1;
+
+
 }
 
 /*Franchise section end  */

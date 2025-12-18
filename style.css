@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
     
@@ -22,6 +22,7 @@ header{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 .logo{
      width: 200px;
@@ -36,6 +37,7 @@ header{
     display: flex;
     gap: 20px;  
     align-items: center;
+    height: 100%;
 }
 li{
     display: flex;
@@ -46,11 +48,12 @@ li{
 li a{
     display: flex;
     color: white;
-    text-align: center;
+    text-decoration: none;
+    align-items: center;
     text-decoration: none;
     width: 100px;
     justify-content: space-around;
-    padding: 20px;
+    
     
 }
 .bnts{
@@ -110,13 +113,10 @@ li a{
 }
 .box{
     display: flex;
-    background-color: white;
     flex-direction: column;
-    width: 15%;
     align-items: center;
-    gap: 30px;
 }
-.boximg{
+.box img{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -143,7 +143,6 @@ h1{
     background-color: transparent;
     padding: 20px 40px;
     color: white;
-    border: 1px solid white;
     border-radius: 50px;
 }
 /*Franchise section start  */
@@ -171,6 +170,11 @@ h1{
     justify-content: space-between;
     
     
+}
+I{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 #oder{
     display: flex;

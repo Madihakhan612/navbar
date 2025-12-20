@@ -285,5 +285,20 @@ button{
     justify-content: center;
     text-align: center;
 }
+.sargodha{
+    display: flex;
+    flex-direction: column;
+}
+.sargodhacontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+/* .location{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px; */
+}
 
 /* Express Franchises section end */

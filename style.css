@@ -156,7 +156,7 @@ h1{
     align-items: center;
     gap: 80px;
 }
-.Franchise .isbcontent{
+.isbcontent{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -169,14 +169,17 @@ h1{
     gap: 80px;
     justify-content: space-between;
     
-    
 }
-I{
+#heading{
+    color: red;
+}
+.isb{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    padding-left: 100px;
 }
-#oder{
+.isb img{
     display: flex;
     flex-direction: column;
     order: 1;
@@ -195,14 +198,92 @@ button{
     border: 1px solid white;
     font-size: large;
 }
-#faisa{
+.faisalabad{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+}
+#heading{
+    color: red;
+}
+.faisal img{
     display: flex;
     flex-direction: column;
-    order: -1;
-
+    order: -5;
+    gap: 100px;
+    padding-left: 10px 20px;
 
 }
-
+.faisalcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 100px;
+}
+#btns{
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    gap: 10px;
+    padding: 20px 40px;
+    border: 1px solid white;
+    font-size: large;
+}
+.Bahawalpur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+}
+#heading{
+    color: red;
+}
+.bahawalpurcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px;
+}
+.bahawal img{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    gap: 100px;
+    padding: 20px 40px;
+}
+#btns{
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 50px;
+}
 /*Franchise section end  */
 
+/* Express Franchises section start */
 
+.ExpressFranchises{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   color: white;
+   align-items: center;
+   padding: 100px 40px;
+   gap: 80px;
+}
+.Expresscontent{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Express Franchises section end */

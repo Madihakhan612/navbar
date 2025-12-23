@@ -288,17 +288,63 @@ button{
 .sargodha{
     display: flex;
     flex-direction: column;
+    width: 30%;
+    
 }
-.sargodhacontent{
+.sargodha img {
+    width: 100%;
+}
+.sargodha button{
+    width: 60%;
+}
+.Jhelum{
+   display: flex;
+   flex-direction: column;
+   width: 30%; 
+}
+.Jhelum img{
+    width: 100%;
+}
+.Jhelum button{
+    width: 60%;
+}
+.FaisalTown{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-/* .location{
+    width: 30%;
+}
+.FaisalTown img{
+    width: 100%;
+}
+.FaisalTown button{
+    width: 60%;
+}
+.DHA{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 10px; */
+    width: 30%;
 }
+.DHA img{
+    width: 100%;
+}
+.DHA button{
+    width: 60%;
+}
+.row{
+    display: flex;
+    gap: 80px;
+}
+.BahriaTown{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.BahriaTown img{
+    width: 100%;
+}
+.imgSize{
+    width: 400px;
+}
+
 
 /* Express Franchises section end */

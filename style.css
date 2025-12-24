@@ -7,10 +7,10 @@
     
 @font-face{
     font-family: 'futurak';
-    src: url("./fonts/futurak.tff");
+    src: url("./fonts/Futurak.ttf");
 }
 @font-face {
-    font-family: Apercu;
+    font-family: 'Apercu';
     src: url("./fonts/Apercu-Font.zip");
 } 
     
@@ -124,7 +124,7 @@ li a{
     align-items: center;
 }   
 
-#Salt{
+#font{
     font-family:'futurak';
     font-style: normal;
     font-weight: 400;
@@ -285,10 +285,18 @@ button{
     justify-content: center;
     text-align: center;
 }
+.row{
+    display: flex;
+    gap: 80px;
+}
+.imgSize{
+    width: 400px;
+}
 .sargodha{
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 20px;
     
 }
 .sargodha img {
@@ -296,54 +304,163 @@ button{
 }
 .sargodha button{
     width: 60%;
+    border-radius: 50px;
 }
 .Jhelum{
    display: flex;
    flex-direction: column;
    width: 30%; 
+   gap: 20px;
 }
 .Jhelum img{
     width: 100%;
 }
 .Jhelum button{
     width: 60%;
+    border-radius: 50px;
 }
 .FaisalTown{
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 40px;
 }
 .FaisalTown img{
     width: 100%;
 }
 .FaisalTown button{
     width: 60%;
+    border-radius: 50px;
 }
 .DHA{
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 20px;
 }
 .DHA img{
     width: 100%;
 }
 .DHA button{
     width: 60%;
+    border-radius: 50px;
 }
-.row{
-    display: flex;
-    gap: 80px;
-}
+
 .BahriaTown{
     display: flex;
     flex-direction: column;
     width: 30%;
+    gap: 20px;
 }
 .BahriaTown img{
     width: 100%;
 }
-.imgSize{
-    width: 400px;
+.BahriaTown button{
+    width: 60%;
+    border-radius: 50px;
+}
+.GujarKhan{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.GujarKhan img{
+    width: 100%;
+}
+.GujarKhan button{
+    width: 30%;
+    border-radius: 50px;
+}
+.Lahore{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.Lahore img{
+    width: 100%;
+}
+.Lahore button{
+    width: 60%;
+    border-radius: 50px;
+}
+.Gujrat{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.Gujrat img{
+    width: 100%;
+}
+.Gujrat button{
+    width: 60%;
+    border-radius: 50px;
+}
+.Sahiwal{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+}
+.Sahiwal img{
+    width: 100%;
+}
+.Sahiwal button{
+    width: 60%;
+    border-radius: 50px;
+}
+.Burewala{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: center;
+}
+.Burewala img{
+    width: 100%;
+    
+}
+.Burewala button{
+    width: 60%;
+    border-radius: 50px;
+}
+
+.VillageFranchise{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 100px;
+    justify-content: space-between;
+   
+}
+.Villagecontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.VillageFranchise img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    order: -5;
+    gap: 100px;
+    justify-content:space-between;
+}
+
+.GUJRANWALA{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.VillageFranchise button{
+    width: 30%;
+    border-radius: 50px;
 }
 
 

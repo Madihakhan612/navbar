@@ -430,38 +430,111 @@ button{
 }
 
 .VillageFranchise{
-    display: flex;
-    flex-direction: row;
-    width: 30%;
+    /* display: flex; */
+    background-color: black;
+    color: white;
+    width: 100%;
     gap: 100px;
-    justify-content: space-between;
+    flex-direction: column;
    
 }
 .Villagecontent{
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    flex-direction: row;
     text-align: center;
+    gap: 30px;
 }
-.VillageFranchise img{
-    width: 100%;
+.Village{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    
+}
+.Village img{
     display: flex;
     flex-direction: column;
     order: -5;
     gap: 100px;
-    justify-content:space-between;
-}
+    padding-left: 100px
 
+}
 .GUJRANWALA{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+    order: 1;
+    padding-right: 100px;
     
 }
-.VillageFranchise button{
-    width: 30%;
-    border-radius: 50px;
-}
-
-
 /* Express Franchises section end */
+.ExpressLocation{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.loccontent{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    width: 100%;
+    
+}
+.locationrow{
+    display: flex;
+    gap: 100px;
+    width: 100%;
+}
+.locationcard{
+    display: flex;
+    gap: 30px;
+    background-color:black;
+    color: white;
+    flex-direction: column;
+    padding: 60px 80px;
+    
+}
+.card1{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.card2{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.card3{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.card4{
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+.card5{
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+.card6{
+    background-color: black
+    color : black;
+    width: 100%;
+
+
+
+
+}
+/* Express Location Section start */
+
+/* Express Location Section end */

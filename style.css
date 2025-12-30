@@ -7,12 +7,16 @@
     
 @font-face{
     font-family: 'futurak';
-    src: url("./fonts/Futurak.ttf");
+    src: url("./fonts/futurablack-bt.ttf");
 }
 @font-face {
     font-family: 'Apercu';
     src: url("./fonts/Apercu-Font.zip");
 } 
+@font-face {
+    font-family: 'inter';
+    src: url("./fonts/Inter-Regular.otf");
+}
     
 
 
@@ -430,7 +434,6 @@ button{
 }
 
 .VillageFranchise{
-    /* display: flex; */
     background-color: black;
     color: white;
     width: 100%;
@@ -439,11 +442,17 @@ button{
    
 }
 .Villagecontent{
-    /* display: flex; */
-    flex-direction: row;
+    /* display: flex;
     text-align: center;
-    gap: 30px;
+    align-content: center;
+    gap: 30px; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
+
 .Village{
     display: flex;
     flex-direction: row;
@@ -467,6 +476,8 @@ button{
     
 }
 /* Express Franchises section end */
+
+/* Express Location Section start */
 .ExpressLocation{
     background-color: black;
     color: white;
@@ -499,42 +510,84 @@ button{
     padding: 60px 80px;
     
 }
+#cardf{
+    font-family: 'FuturaBlack BT';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+h4{
+    font-family: 'inter';
+    font-weight: 600;
+    font-size: 24px;
+}
 .card1{
     background-color: white;
     color: black;
-    width: 100%;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    padding: 30px 32px;
+    gap: 32px;
+    border-radius: 5px;
+    justify-content: center;
 }
 .card2{
-    background-color: black;
-    color: white;
-    width: 100%;
+    background-color: white;
+    color: black;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    padding: 30px 32px;
+    gap: 50px;
+    border-radius: 5px;
+    justify-content: center;
 }
 .card3{
-    background-color: black;
-    color: white;
-    width: 100%;
+    background-color: white;
+    color: black;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    padding: 30px 32px;
+    gap: 50px;
+    border-radius: 5px;
+    justify-content: center;
 }
 .card4{
-    background-color: black;
-    color: white;
-    width: 100%;
+    background-color: white;
+    color: black;
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    padding: 30px 32px;
+    border-radius: 5px;
+    gap: 50px;
+    justify-content: center;
 
 }
 .card5{
-    background-color: black;
-    color: white;
-    width: 100%;
+    background-color: white;
+    color: black;
+    width: 70%;
+    height: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px 32px;
 
 }
 .card6{
-    background-color: black
+    background-color: white;
     color : black;
-    width: 100%;
-
-
-
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+    padding: 30px 32px;
+    border-radius: 5px;
+    gap: 50px;
+    justify-content: center;
 
 }
-/* Express Location Section start */
-
 /* Express Location Section end */

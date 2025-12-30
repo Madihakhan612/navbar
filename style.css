@@ -420,7 +420,7 @@ button{
     flex-direction: column;
     width: 30%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     text-align: center;
 }
@@ -442,10 +442,6 @@ button{
    
 }
 .Villagecontent{
-    /* display: flex;
-    text-align: center;
-    align-content: center;
-    gap: 30px; */
     display: flex;
     color: white;
     flex-direction: column;
@@ -455,14 +451,14 @@ button{
 
 .Village{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 100px;
     align-items: center;
     
 }
 .Village img{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     order: -5;
     gap: 100px;
     padding-left: 100px
@@ -591,3 +587,19 @@ h4{
 
 }
 /* Express Location Section end */
+
+  /* -- footer section start-- */
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;  
+}
+.footerimg{
+    width: 20%;
+}
+.footerimg img{
+    width: 100%;
+}
+  /* -- footer section end-- */
